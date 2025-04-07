@@ -55,8 +55,6 @@ font-family: "Roboto",sans-serif;
   }
   .service-section {
     background-color: #2e2f42;
-    width: 1440px;
-      height: 600px;
   }
   .service-title {
     font-family: "Roboto", sans-serif;
@@ -93,20 +91,26 @@ font-family: "Roboto",sans-serif;
   letter-spacing: 0.02em;
 }
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #f4f4fd;  
 }
 .team-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
-.team-list {
-  background-color: #fff;
+
+.team-list .team-item {
+  border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    background-color: #fff;
 }
 .team-item-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -122,12 +126,13 @@ font-family: "Roboto",sans-serif;
 }
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.portfolio-item-titl {
+.portfolio-item-title {
   font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
